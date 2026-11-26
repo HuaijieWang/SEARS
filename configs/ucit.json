@@ -1,0 +1,12 @@
+{
+  "images": "UCIT",
+  "instructions": "UCIT",
+  "tasks": [
+    ["ImageNet-R", "ImageNet-R/train.json", "ImageNet-R/test_3000.json", "exact"],
+    ["ArxivQA", "ArxivQA/train_4w.json", "ArxivQA/test_3000.json", "exact"],
+    ["VizWiz", "VizWiz/train.json", "VizWiz/test_3000.json", "caption", "VizWiz/val_coco_type_3000.json"],
+    ["IconQA", "IconQA/train.json", "IconQA/test_3000.json", "exact"],
+    ["CLEVR-Math", "CLEVR/train_4w.json", "CLEVR/test_3000.json", "exact"],
+    ["Flickr30k", "Flickr30k/train_brief_4w.json", "Flickr30k/test_3000.json", "caption", "Flickr30k/val_coco_type_3000.json"]
+  ]
+}

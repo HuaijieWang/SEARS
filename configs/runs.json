@@ -1,0 +1,27 @@
+{
+  "ucit-llava": {
+    "benchmark": "ucit", "model": "llava-v1.5-7b", "vision": "clip-vit-large-patch14-336", "layer": -2, "scope": "all",
+    "batch": 32, "accumulate": 2, "workers": 4,
+    "eval": {"dtype": "float16", "max_new_tokens": 256, "pad_images": false}
+  },
+  "cvit-llava": {
+    "benchmark": "cvit", "model": "llava-v1.5-7b", "vision": "clip-vit-large-patch14-336", "layer": -2, "scope": "all",
+    "batch": 32, "accumulate": 2, "workers": 4,
+    "eval": {"dtype": "float16", "max_new_tokens": 256, "pad_images": false, "scienceqa": {"max_new_tokens": 1024, "pad_images": true}}
+  },
+  "coin-llava": {
+    "benchmark": "coin", "model": "llava-v1.5-7b", "vision": "clip-vit-large-patch14-336", "layer": -2, "scope": "all",
+    "batch": 32, "accumulate": 2, "workers": 4,
+    "eval": {"dtype": "bfloat16", "max_new_tokens": 128, "pad_images": true, "scienceqa": {"pad_images": false}}
+  },
+  "trigap-llava": {
+    "benchmark": "trigap", "model": "llava-v1.5-7b", "vision": "clip-vit-large-patch14-336", "layer": -2, "scope": "ffn",
+    "batch": 32, "accumulate": 2, "workers": 4,
+    "eval": {"dtype": "float16", "max_new_tokens": 256, "pad_images": false}
+  },
+  "ucit-internvl": {
+    "benchmark": "ucit", "model": "Internvl-chat-7b", "vision": "InternViT-6B-224px", "layer": -4, "scope": "all",
+    "batch": 6, "accumulate": 1, "workers": 4,
+    "eval": {"dtype": "bfloat16", "max_new_tokens": 128, "pad_images": true}
+  }
+}

@@ -1,0 +1,16 @@
+{
+  "images": "TriGap/images",
+  "instructions": "TriGap/instructions",
+  "tasks": [
+    ["PMCVQA", "PMCVQA/train_standard_4w.json", "PMCVQA/test_standard_3k.json", "exact"],
+    ["DocVQA", "DocVQA/train_converted_sub.json", "DocVQA/val_converted.json", "anls"],
+    ["ChartQA", "ChartQA/train_standard_4w_sub.json", "ChartQA/test_standard_3k.json", "exact"],
+    ["IconQA", "IconQA/train_sub.json", "IconQA/test_3000.json", "exact"],
+    ["InfographicVQA", "InfographicVQA/infographicsVQA_train_converted_sub.json", "InfographicVQA/infographicsVQA_val_converted.json", "anls"],
+    ["ArxivQA", "ArxivQA/train_4w_sub.json", "ArxivQA/test_3000.json", "exact"],
+    ["Roadside", "Roadside/train_standard_4w.json", "Roadside/test_standard_3k.json", "exact"],
+    ["ChemVQA", "ChemVQA/train_standard_4w.json", "ChemVQA/test_standard_3k.json", "exact"],
+    ["FloodNetVQA", "FloodNetVQA/train_standard_4w_sub.json", "FloodNetVQA/test_standard_3k.json", "exact"],
+    ["CLEVR", "CLEVR/train_4w_sub.json", "CLEVR/test_3000.json", "exact"]
+  ]
+}

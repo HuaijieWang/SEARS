@@ -1,0 +1,12 @@
+{
+  "images": "SMoLoRA/datasets",
+  "instructions": "SMoLoRA/CVIT_benchmark/Instructions_Single",
+  "tasks": [
+    ["ScienceQA", "ScienceQA/train.json", "ScienceQA/test.json", "scienceqa", "SMoLoRA/datasets/ScienceQA/problems.json"],
+    ["TextVQA", "TextVQA/train.json", "TextVQA/val.json", "textvqa", "SMoLoRA/datasets/TextVQA/TextVQA_0.5.1_val.json"],
+    ["Flickr30k", "Flickr30k/train.json", "Flickr30k/val.json", "cider"],
+    ["ImageNet", "ImageNet/train.json", "ImageNet/test.json", "imagenet"],
+    ["GQA", "GQA/train.json", "GQA/test.json", "gqa", "SMoLoRA/datasets/GQA/testdev_balanced_questions.json"],
+    ["VQAv2", "VQAv2/train.json", "VQAv2/val.json", "vqav2"]
+  ]
+}

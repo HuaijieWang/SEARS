@@ -1,0 +1,14 @@
+{
+  "images": "CoIN",
+  "instructions": "CoIN/Instructions/HiDe_CoIN",
+  "tasks": [
+    ["ScienceQA", "ScienceQA/train.json", "ScienceQA/test.json", "scienceqa", "ScienceQA/problems.json"],
+    ["TextVQA", "TextVQA/train.json", "TextVQA/val.json", "textvqa", "TextVQA/TextVQA_0.5.1_val.json"],
+    ["ImageNet", "ImageNet/train_2w.json", "ImageNet/test_3000.json", "imagenet"],
+    ["GQA", "GQA/train_2w.json", "GQA/test_3000.json", "gqa", "GQA/testdev_balanced_questions.json"],
+    ["VizWiz", "VizWiz/train.json", "VizWiz/val.json", "vizwiz"],
+    ["REC", "Grounding/train_2w.json", "Grounding/test_3000.json", "rec"],
+    ["VQAv2", "VQAv2/train_2w.json", "VQAv2/val_1w.json", "vqav2"],
+    ["OCRVQA", "OCRVQA/train_2w.json", "OCRVQA/test_3000.json", "ocrvqa"]
+  ]
+}
