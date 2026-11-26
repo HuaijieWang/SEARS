@@ -43,13 +43,14 @@ huggingface-cli download OpenGVLab/InternViT-6B-224px --include '*.py' 'config.j
 
 ## Environment
 
-Use Python 3.10, PyTorch 2.0.1 with CUDA 11.8, Transformers 4.31.0, FlashAttention 2.6.3, and Java 11 for caption evaluation. If the MCITlib environment is already installed, activate it directly:
+Use Python 3.10, PyTorch 2.0.1 with CUDA 11.8, Transformers 4.31.0, FlashAttention 2.6.3, and Java 11 for caption evaluation. Create and activate the SEARS Conda environment on a new server:
 
 ```bash
-conda activate MCITlib
+conda create -n SEARS python=3.10 -y
+conda activate SEARS
 ```
 
-On a separate server, install the CUDA 11.8 PyTorch build and a matching FlashAttention wheel before installing the remaining packages from `requirements.txt`.
+If the SEARS environment already exists, run only `conda activate SEARS`. Install the CUDA 11.8 PyTorch build and a matching FlashAttention wheel before installing the remaining packages from `requirements.txt`.
 
 ## Training and evaluation
 
