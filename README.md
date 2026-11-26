@@ -55,7 +55,6 @@ If the SEARS environment already exists, run only `conda activate SEARS`. Instal
 ## Training and evaluation
 
 Run IDs: `ucit-llava`, `cvit-llava`, `coin-llava`, `trigap-llava`, `ucit-internvl`. All profiles use one GPU for training and evaluation.
-TriGap uses a per-device training batch size of 32 and two gradient-accumulation steps.
 
 ```bash
 bash scripts/server.sh ucit-llava check
